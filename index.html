@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Evaluación Segundo Parcial (Primera Parte)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Raíz Cuadrada De Un Número</h1>
+    <form id="raiz" action="js:proceso()">
+    <p>
+      <label accesskey="p">
+      Raíz: 
+      <input name="valor" type="text"></label>
+      <input type="submit" value="Generar" accesskey="G">      
+      <button id="limpiar">Limpiar</button>
+    </p>
+    <p>
+        <label accesskey="s"><textarea name="salida" ></textarea></label>
+    </p>
+    </form>
+    <script src="script.js"></script>
+  </body>
 </html>
